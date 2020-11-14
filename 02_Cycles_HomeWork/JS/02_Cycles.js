@@ -1,22 +1,22 @@
 //I VARIANT
 
-const initialNumber = +prompt('Введите начальное число');
-const finalNumber = +prompt('Введите конечное число');
+const INITIAL_NUMBER = +prompt('Введите начальное число');
+const FINAL_NUMBER = +prompt('Введите конечное число');
 
 let result = 0;
 
-if (Number.isInteger(initialNumber) && Number.isInteger(finalNumber)) {
+if (Number.isInteger(INITIAL_NUMBER) && Number.isInteger(FINAL_NUMBER)) {
 
 
 	if (confirm('Учитывать парные числа?')) {
-		for (let i = initialNumber; i >= initialNumber && i <= finalNumber; i++) {
+		for (let i = INITIAL_NUMBER; i <= FINAL_NUMBER; i++) {
 
 			result = result + i
 
 		}
 	} else {
 
-		for (let i = initialNumber; i >= initialNumber && i <= finalNumber; i++) {
+		for (let i = INITIAL_NUMBER; i <= FINAL_NUMBER; i++) {
 			if (i % 2 !== 0) {
 				result = result + i
 			}
@@ -36,22 +36,22 @@ if (Number.isInteger(initialNumber) && Number.isInteger(finalNumber)) {
 
 //II VARIANT
 	
-//const initialNumber = parseInt(prompt('Введите начальное число'));
-//const finalNumber = parseInt(prompt('Введите конечное число'));
+//const INITIAL_NUMBER = parseInt(prompt('Введите начальное число'));
+//const FINAL_NUMBER = parseInt(prompt('Введите конечное число'));
 //
 //let result = 0;
 //
 //
 //
 //	if (confirm('Учитывать парные числа?')) {
-//		for (let i = initialNumber; i >= initialNumber && i <= finalNumber; i++) {
+//		for (let i = INITIAL_NUMBER; i <= FINAL_NUMBER; i++) {
 //
 //			result = result + i
 //
 //		}
 //	} else {
 //
-//		for (let i = initialNumber; i >= initialNumber && i <= finalNumber; i++) {
+//		for (let i = INITIAL_NUMBER; i <= FINAL_NUMBER; i++) {
 //			if (i % 2 !== 0) {
 //				result = result + i
 //			}
