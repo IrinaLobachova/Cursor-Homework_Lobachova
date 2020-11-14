@@ -3,7 +3,7 @@
 const initialNumber = +prompt('Введите начальное число');
 const finalNumber = +prompt('Введите конечное число');
 
-const result = 0;
+let result = 0;
 
 if (Number.isInteger(initialNumber) && Number.isInteger(finalNumber)) {
 
@@ -39,7 +39,7 @@ if (Number.isInteger(initialNumber) && Number.isInteger(finalNumber)) {
 //const initialNumber = parseInt(prompt('Введите начальное число'));
 //const finalNumber = parseInt(prompt('Введите конечное число'));
 //
-//const result = 0;
+//let result = 0;
 //
 //
 //
