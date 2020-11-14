@@ -1,9 +1,9 @@
 //I VARIANT
 
-let initialNumber = +prompt('Введите начальное число');
-let finalNumber = +prompt('Введите конечное число');
+const initialNumber = +prompt('Введите начальное число');
+const finalNumber = +prompt('Введите конечное число');
 
-let result = 0;
+const result = 0;
 
 if (Number.isInteger(initialNumber) && Number.isInteger(finalNumber)) {
 
@@ -36,10 +36,10 @@ if (Number.isInteger(initialNumber) && Number.isInteger(finalNumber)) {
 
 //II VARIANT
 	
-//let initialNumber = parseInt(prompt('Введите начальное число'));
-//let finalNumber = parseInt(prompt('Введите конечное число'));
+//const initialNumber = parseInt(prompt('Введите начальное число'));
+//const finalNumber = parseInt(prompt('Введите конечное число'));
 //
-//let result = 0;
+//const result = 0;
 //
 //
 //
