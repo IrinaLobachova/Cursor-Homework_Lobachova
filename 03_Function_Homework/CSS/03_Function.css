@@ -1,0 +1,23 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 30px;
+    background-color: beige;
+}
+
+.fun{
+	width: 500px;
+	padding: 10px 5px;
+	margin-bottom: 25px;
+	background-color: #dbdada;
+	color: #000088;
+	font-size: 20px;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(100, 100, 10, 0.75);
+	-moz-box-shadow:    0px 0px 10px 0px rgba(100, 100, 10, 0.75);
+	box-shadow:         0px 0px 10px 0px rgba(100, 100, 10, 0.75);
+}
