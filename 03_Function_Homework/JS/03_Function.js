@@ -28,7 +28,7 @@ function exponentiation(a, n) {
 
 	let result = a;
 
-	for (var i = 1; i < n; i++) {
+	for (let i = 1; i < n; i++) {
 
 		result *= a;
 
@@ -46,7 +46,7 @@ const FIRST_BIG_LETTER_NAME = function upperFirstLetter(name) {
 
 	const NAME = prompt('Введите имя (все буквы маленькие или заглавние, или разные)');
 
-	return `${NAME[0].toUpperCase()}${NAME.slice(1).toLowerCase()}`;
+	return `${NAME} = ${NAME[0].toUpperCase()}${NAME.slice(1).toLowerCase()}`;
 
 
 };
@@ -78,13 +78,15 @@ function getRandomNumber(N, M) {
 //№6
 
 
-function countLetter(str, char) {
+function countLetter(char, str) {
+	
+	str = str.toLowerCase();
 
 	let count = 0;
 
-	for (let i = 0; i < char.length; i++) {
+	for (let i = 0; i < str.length; i++) {
 
-		if (char[i] === str) {
+		if (str[i] === char) {
 			count++
 		}
 	}
@@ -184,21 +186,23 @@ function deleteLetters(letter, word) {
 //№10
 
 
-const PALYNDROM = prompt('Введите любое слово-палиндром');
+
 
 function isPalindrom() {
+	
+	const PALYNDROM = prompt('Введите любое слово-палиндром').toUpperCase();
 
-	const PALYNDROM_FUNC = PALYNDROM;
+//	const PALYNDROM_FUNC = PALYNDROM;
 
-	const PALYNDROM_REVERS = PALYNDROM_FUNC.split('').reverse().join('');
+	const PALYNDROM_REVERS = PALYNDROM.split('').reverse().join('');
 
-	if (PALYNDROM_REVERS == PALYNDROM_FUNC) {
+	if (PALYNDROM_REVERS == PALYNDROM) {
 
-		return true;
+		return `Cлово ${PALYNDROM} является палиндромом.`;
 
 	} else {
 
-		return false;
+		return `Cлово ${PALYNDROM} неявляется палиндромом.`;
 	}
 };
 
@@ -227,11 +231,11 @@ const FUNC_2 = document.querySelector('.function_2').innerHTML = `Функия �
 const FUNC_3 = document.querySelector('.function_3').innerHTML = `Функия №3: ${FIRST_BIG_LETTER_NAME()}`;
 const FUNC_4 = document.querySelector('.function_4').innerHTML = `Функия №4: Зарплата после вычета налога = ${getSumSalary(2456)} грн.`;
 const FUNC_5 = document.querySelector('.function_5').innerHTML = `Функия №5: Случайная цифра в диапазоне = ${getRandomNumber(20, 50)}`;
-const FUNC_6 = document.querySelector('.function_6').innerHTML = `Функия №6: Буква "а" повторяется в слове ${countLetter('a', 'aghdavgdjakkfua')} раз`;
+const FUNC_6 = document.querySelector('.function_6').innerHTML = `Функия №6: Буква "а" повторяется в слове ${countLetter('a', 'aghdAvgdJAkkfua')} раз`;
 const FUNC_7 = document.querySelector('.function_7').innerHTML = `Функия №7: ${convertCurrency()}`;
 const FUNC_8 = document.querySelector('.function_8').innerHTML = `Функия №8: ПАРОЛЬ - ${getRandomPassword()}`;
 const FUNC_9 = document.querySelector('.function_9').innerHTML = `Функия №9: Арарат = ${deleteLetters('а', 'Арарат')}`;
-const FUNC_10 = document.querySelector('.function_10').innerHTML = `Функия №10: Cлово ${PALYNDROM}</b> является палиндромом - ${isPalindrom()}`;
+const FUNC_10 = document.querySelector('.function_10').innerHTML = `Функия №10: ${isPalindrom()}`;
 const FUNC_11 = document.querySelector('.function_11').innerHTML = `Функия №11: Вы можете изучить JavaScript, начиная с нуля и заканчивая продвинутыми концепциями вроде ООП = ${deleteDuplicateLetter('Вы можете изучить JavaScript, начиная с нуля и заканчивая продвинутыми концепциями вроде ООП')}`;
 
 
