@@ -64,7 +64,7 @@ const STUDENTS_COUPLE_THEMES = studentsThemes();
 
 
 function studentsMarks() {
-
+	
 	let studetsMarksArr = [];
 	let newMarks = [];
 	let newStudents = [];
@@ -82,7 +82,6 @@ function studentsMarks() {
 	}
 
 	for (let i = 0; i < newStudents.length && i < newMarks.length; i++) {
-
 		studetsMarksArr.push(newStudents[i].concat(newMarks[i]));
 
 	}
@@ -90,7 +89,6 @@ function studentsMarks() {
 	return studetsMarksArr
 }
 const STUDENTS_MARKS = studentsMarks();
-
 
 
 //№4
