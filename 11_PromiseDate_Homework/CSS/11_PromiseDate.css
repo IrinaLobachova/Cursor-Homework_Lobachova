@@ -1,0 +1,22 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 30px;
+    background-color: #f4d9af;
+}
+#chinese{
+	padding: 10px 5px;
+	border: 2px solid #46270b;
+	border-radius: 5px;
+	background-color: rgb(216, 216, 216);
+	font-weight: bold;
+	font-size: 25px;
+	width: 250px;
+	color: #46270b;
+	text-align: center;
+}
