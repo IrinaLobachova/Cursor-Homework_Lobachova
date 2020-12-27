@@ -1,0 +1,109 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+	font-family: 'Yantramanav', sans-serif;
+	font-weight: 300;
+	color: #072a2c;
+	font-size: 16px;
+	background-color: #eaeaea;
+	
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+	padding: 25px 0;
+}
+
+#data-wraper{
+    display: flex;
+    flex-flow: row;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.data-item, #data-wraper-planets{
+    border: 2px solid #18a4ac;
+    padding: 10px;
+    width: 250px;
+    height: 400px;
+    overflow-y: scroll;
+    margin-bottom: 15px;
+    background-color: azure;
+    border-radius: 5px;
+}
+
+.data-item span, #data-wraper-planets span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+	font-family: 'Volkhov', serif;
+	color: #0e595d;
+	margin-left: 5px;
+}
+#data-wraper-planets span{
+	line-height: 2;
+	color: #aa0505;
+	text-transform: uppercase;
+}
+#data-wraper-planets{
+	font-size: 18px;
+	padding-left: 20px;
+	margin: auto;
+}
+
+#data-wraper-planets h3{
+	text-align: center;
+	color: #aa0505;
+	text-transform: uppercase;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+	height: 300px;
+	overflow: hidden;
+}
+.image img{
+	width: 100%;
+	height: 100%;
+	
+}
+#personInfo, #next, #translet, #numberFilm, #filmsInfo{
+	border: 1px solid #0e595d;
+	background-color: #0e595d;
+    border-radius: 5px;
+	width: 250px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: azure;
+	text-shadow: 0px 0px 10px rgba(248, 247, 222, 0.7);
+	box-shadow: 0px 0px 16px rgba(248, 247, 222, 0.7);
+	margin-bottom: 25px;
+}
+#numberFilm{
+	background-color: azure;
+	border: 2px solid #0e595d;
+	color: #0e595d;
+}
+
+#numberFilm::placeholder{
+	color: #c3cccc;
+	font-size: 16px;
+	text-align: center;
+}
