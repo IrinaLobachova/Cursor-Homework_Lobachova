@@ -68,7 +68,7 @@ const PERSON_IMAGE = {
 	'Quarsh Panaka': 'https://i.pinimg.com/originals/d7/ec/ce/d7ecced2abe84ef7781d46b434822103.jpg',
 	'Adi Gallia': 'https://static.wikia.nocookie.net/frstarwars/images/e/e0/Adi_Gallia-card-trader.png/revision/latest/top-crop/width/360/height/450?cb=20181228200446',
 	'Mace Windu': 'https://static.wikia.nocookie.net/starwars/images/f/fc/Mace_Windu.jpg/revision/latest/top-crop/width/360/height/450?cb=20071230055326',
-	'Luminara Unduli': 'https://lh3.googleusercontent.com/proxy/kQccXfFCWaGv9UrlX3K8HjSQskxpKZTVLNIn9N-MDOQjQtU_bg-HJLBj53zC9MjXEdSd1g2TXTNVCfreQt_l75t4M7i1IvaCXEW7DsheGahBxVdZT4A',
+	'Luminara Unduli': 'https://lh3.googleusercontent.com/proxy/mYH7kXxrgpfcJWz4JpJVYA8OsFMNZzJ1JoSsZeqhzKe9FxDjAeoWvef26IM305HVrLDA__U4DuadoO-PnPOOnBS2Hp6YW1qIM7LopnA1HsVHuW9jo6g',
 	'Barriss Offee': 'https://comicvine1.cbsistatic.com/uploads/scale_small/1/10376/225034-166201-barriss-offee.jpg',
 	'Jango Fett': 'https://www.timewalkertoys.com/v/vspfiles/photos/SST-2149-2.jpg',
 	'Jocasta Nu': 'https://preview.redd.it/zhlrc2cvxxtz.png?auto=webp&s=1b1fa9fcb1779054a4f22fde00f1c7bfa63c687f',
