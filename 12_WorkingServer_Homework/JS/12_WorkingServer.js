@@ -1,4 +1,3 @@
-
 const PERSON_IMAGE = {
 	'Luke Skywalker': 'https://i.pinimg.com/originals/c1/06/59/c106598e42f244d70f391f0241d64669.jpg',
 
